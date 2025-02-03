@@ -3,11 +3,14 @@ package cz.robotdreams.java.lekce17;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
+import java.nio.charset.Charset;
 
 public class ReaderExample {
 
 
     public static void main(String[] args) throws IOException {
+        //Reader reader = new FileReader("input.txt", Charset.defaultCharset());
+
         Reader reader = new FileReader("input.txt");
         char[] buff = new char[16];
 
@@ -19,6 +22,6 @@ public class ReaderExample {
             }
             System.out.println("\n");
         }
-
+        reader.close();
     }
 }

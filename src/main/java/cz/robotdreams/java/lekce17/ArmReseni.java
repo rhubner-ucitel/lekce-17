@@ -15,6 +15,7 @@ public class ArmReseni {
                         FileInputStream in = new FileInputStream("input.txt");
                         FileInputStream in2 = new FileInputStream("input.txt");
                 ) {
+
                     while(true) {
                         int byte1 = in.read();
                         int byte2 = in2.read();

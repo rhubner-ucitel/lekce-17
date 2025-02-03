@@ -11,6 +11,9 @@ public class Retezeni {
                 )
         );
 
+//        BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream("input.txt"), "UTF-8"));
+
+
         String line;
         while((line = in.readLine()) != null) {
             System.out.println("Prečten řádek : \n" + line);

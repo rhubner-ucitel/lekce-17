@@ -8,7 +8,6 @@ import java.util.HexFormat;
 
 public class OutputStreamExample {
 
-    private static final HexFormat HEX_FORMAT = HexFormat.ofDelimiter(" ");
     private static final byte[] DATA_TO_WRITE = new byte[] {
             0x30, 0x31, 0x32, 0x32,0x34,0x35,0x36,0x37, '\n',
             0x30, 0x31, 0x32, 0x32,0x34,0x35,0x36,0x37, '\n'
